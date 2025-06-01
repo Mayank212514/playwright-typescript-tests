@@ -1,3 +1,8 @@
+**📖 About This Project**
+
+This project is a comprehensive UI test automation framework built using Playwright and TypeScript, designed to validate the core user flows of SauceDemo — a demo e-commerce platform. It demonstrates best practices in test structure, modular design using the Page Object Model (POM), and integrates advanced features like Allure reporting, negative and positive test coverage, and CI/CD compatibility. The goal of this framework is to provide a solid foundation for scalable, maintainable, and readable UI automation that mirrors real-world testing strategies followed by modern QA teams. This project serves as a practical example for exploring Playwright, building a proof-of-concept, or evaluating tools for enterprise testing
+
+
 🚀 **Playwright Automation Framework:**
 
     A robust end-to-end UI test automation framework built using Playwright + TypeScript, targeting saucedemo.com. This project follows best practices like Page Object Model, modular test structure, and rich reporting with Allure.
