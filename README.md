@@ -41,3 +41,10 @@
 **GitHub Integration** ✅
 
     Fully version-controlled via Git, with support for both public and private repositories. Can be used in open-source demos or private automation pipelines.
+
+**🛠 Tech Stack**
+
+        Playwright Test Runner
+        TypeScript
+        Allure Reporter
+        Nodemailer for emailing reports
