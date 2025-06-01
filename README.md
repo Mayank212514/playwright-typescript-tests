@@ -1,4 +1,4 @@
-🧪 **Playwright Automation Framework:**
+🚀 **Playwright Automation Framework:**
 
     A robust end-to-end UI test automation framework built using Playwright + TypeScript, targeting saucedemo.com. This project follows best practices like Page Object Model, modular test structure, and rich reporting with Allure.
 
