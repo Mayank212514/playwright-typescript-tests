@@ -37,6 +37,7 @@ async function sendEmail() {
   archive.directory(reportPath, false);
   await archive.finalize();
 
+  // Add the email address and app password here. App password is not the same as the email address.
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
@@ -57,6 +58,7 @@ async function sendEmail() {
     <p>📎 Attached is the full HTML report as a ZIP file.</p>
   `;
 
+  // Add the email address of the sender and receiver here
   const info = await transporter.sendMail({
     from: '"QA Bot" <your-email@gmail.com>',
     to: 'recipient@example.com',
