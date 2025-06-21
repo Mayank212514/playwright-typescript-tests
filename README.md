@@ -53,3 +53,11 @@ This project is a comprehensive UI test automation framework built using Playwri
         TypeScript
         Allure Reporter
         Nodemailer for emailing reports
+
+**How to Run the Tests**
+
+    Type "npx playwright test" in the terminal or "npm run test:allure" to run the test and generate the report
+    All tests will start executing with 4 workers, which means 4 tests will execute in parallel.
+    To open the report:  Type "npm run allure:open" in the terminal
+    Reports will open in the browser
+    
